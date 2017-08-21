@@ -24,6 +24,9 @@
 		3FD016701E696D8D00B54FFC /* SwipeTransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0166F1E696D8D00B54FFC /* SwipeTransitionLayout.swift */; };
 		3FD016DF1E6D778700B54FFC /* SwipeExpanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD016DE1E6D778700B54FFC /* SwipeExpanding.swift */; };
 		3FD016E11E6D7F7700B54FFC /* SwipeActionTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD016E01E6D7F7700B54FFC /* SwipeActionTransitioning.swift */; };
+		B87AC0F61F4ABC4700059142 /* SwipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87AC0F31F4ABC4700059142 /* SwipeCollectionViewCell.swift */; };
+		B87AC0F71F4ABC4700059142 /* SwipeCollectionViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87AC0F41F4ABC4700059142 /* SwipeCollectionViewCell+Display.swift */; };
+		B87AC0F81F4ABC4700059142 /* SwipeCollectionViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87AC0F51F4ABC4700059142 /* SwipeCollectionViewCellDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		3FD0166F1E696D8D00B54FFC /* SwipeTransitionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeTransitionLayout.swift; sourceTree = "<group>"; };
 		3FD016DE1E6D778700B54FFC /* SwipeExpanding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeExpanding.swift; sourceTree = "<group>"; };
 		3FD016E01E6D7F7700B54FFC /* SwipeActionTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeActionTransitioning.swift; sourceTree = "<group>"; };
+		B87AC0F31F4ABC4700059142 /* SwipeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCollectionViewCell.swift; sourceTree = "<group>"; };
+		B87AC0F41F4ABC4700059142 /* SwipeCollectionViewCell+Display.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwipeCollectionViewCell+Display.swift"; sourceTree = "<group>"; };
+		B87AC0F51F4ABC4700059142 /* SwipeCollectionViewCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCollectionViewCellDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 				3FD016DE1E6D778700B54FFC /* SwipeExpanding.swift */,
 				3F19AD031E8D711C006B4B3A /* SwipeFeedback.swift */,
 				3F234AD51E44A94F00E22A38 /* Extensions.swift */,
+				B87AC0F31F4ABC4700059142 /* SwipeCollectionViewCell.swift */,
+				B87AC0F41F4ABC4700059142 /* SwipeCollectionViewCell+Display.swift */,
+				B87AC0F51F4ABC4700059142 /* SwipeCollectionViewCellDelegate.swift */,
 				3F234AD01E44A8F200E22A38 /* Supporting Files */,
 			);
 			path = Source;
@@ -193,7 +202,9 @@
 				3F234AD61E44A94F00E22A38 /* SwipeTableViewCell.swift in Sources */,
 				3F19AD041E8D711C006B4B3A /* SwipeFeedback.swift in Sources */,
 				3FD016701E696D8D00B54FFC /* SwipeTransitionLayout.swift in Sources */,
+				B87AC0F71F4ABC4700059142 /* SwipeCollectionViewCell+Display.swift in Sources */,
 				3FA78CA11E5A5A0B00A1D8FF /* SwipeTableViewCell+Accessibility.swift in Sources */,
+				B87AC0F61F4ABC4700059142 /* SwipeCollectionViewCell.swift in Sources */,
 				3F4C721F1E7E8C180097399A /* Swipeable.swift in Sources */,
 				3F4C721D1E7E8BC20097399A /* SwipeExpansionStyle.swift in Sources */,
 				3F3ED7121E48AF37009DD5D8 /* SwipeTableViewCellDelegate.swift in Sources */,
@@ -201,6 +212,7 @@
 				3FD016DF1E6D778700B54FFC /* SwipeExpanding.swift in Sources */,
 				3F51DA071E462F9B005467BD /* SwipeTableOptions.swift in Sources */,
 				170BCE721E8340C000F46E18 /* SwipeAnimator.swift in Sources */,
+				B87AC0F81F4ABC4700059142 /* SwipeCollectionViewCellDelegate.swift in Sources */,
 				3F6433DA1EA53AC3008B1D48 /* SwipeTableViewCell+Display.swift in Sources */,
 				3F234AD91E44A94F00E22A38 /* Extensions.swift in Sources */,
 			);
